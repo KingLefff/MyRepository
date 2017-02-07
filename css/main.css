@@ -1,0 +1,263 @@
+body {
+  background: #fffdf7;
+}
+body > header {
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#3a5c82), to(#0b0f31));
+  background-image: -webkit-linear-gradient(top, #3a5c82, 0%, #0b0f31, 100%);
+  background-image: -moz-linear-gradient(top, #3a5c82 0%, #0b0f31 100%);
+  background-image: linear-gradient(to bottom, #3a5c82 0%, #0b0f31 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3a5c82', endColorstr='#ff0b0f31', GradientType=0);
+}
+body > header .container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+body > header .container .logo {
+  margin-top: 10px;
+}
+body > header .container > h1 {
+  margin-left: 150px;
+  color: #fff;
+}
+body > .container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+body > footer {
+  margin-right: auto;
+  margin-left: auto;
+    margin-top: 30px;
+  padding: 30px 0;
+    background: rgba(30, 50, 10, 0.08);
+}
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+/* Customize the nav-justified links to be fill the entire space of the .navbar */
+.nav-justified {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.nav-justified > li > a {
+  margin-bottom: 0;
+  font-weight: bold;
+  color: #777;
+  text-align: center;
+  background-color: #e5e5e5;
+  /* Old browsers */
+  background-image: -moz-linear-gradient(top, #f5f5f5 0%, #e5e5e5 100%);
+  /* FF3.6+ */
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f5f5f5), color-stop(100%, #e5e5e5));
+  /* Chrome,Safari4+ */
+  background-image: -webkit-linear-gradient(top, #f5f5f5 0%, #e5e5e5 100%);
+  /* Chrome 10+,Safari 5.1+ */
+  background-image: -o-linear-gradient(top, #f5f5f5 0%, #e5e5e5 100%);
+  /* Opera 11.10+ */
+  background-image: linear-gradient(top, #f5f5f5 0%, #e5e5e5 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endColorstr='#e5e5e5', GradientType=0);
+  /* IE6-9 */
+  background-repeat: repeat-x;
+  /* Repeat the gradient */
+  border-bottom: 1px solid #d5d5d5;
+}
+.nav-justified > li > a:first-child > a {
+  border-radius: 5px 5px 0 0;
+}
+.nav-justified > li > a:last-child > a {
+  border-bottom: 0;
+  border-radius: 0 0 5px 5px;
+}
+.nav-justified > .active > a,
+.nav-justified > .active > a:hover,
+.nav-justified > .active > a:focus {
+  background-color: #ddd;
+  background-image: none;
+  box-shadow: inset 0 3px 7px rgba(0, 0, 0, 0.15);
+}
+@media (min-width: 768px) {
+  .nav-justified {
+    max-height: 52px;
+  }
+  .nav-justified > li > a {
+    border-right: 1px solid #d5d5d5;
+    border-left: 1px solid #fff;
+  }
+  .nav-justified > li:first-child > a {
+    border-left: 0;
+    border-radius: 5px 0 0 5px;
+  }
+  .nav-justified > li:last-child > a {
+    border-right: 0;
+    border-radius: 0 5px 5px 0;
+  }
+}
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .masthead,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+#logout {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  margin-bottom: -1px;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+}
+#sidebar form .submit {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.nav_list ul {
+    margin-top:20px;
+   /* width:200px; */
+    list-style:none;
+    margin-right: 20px;
+}
+.nav_list ul li {
+    position:relative;
+}
+.nav_list ul li a {
+    padding:5px 10px 5px 20px;
+    display:block;
+    font-size:14px;
+    font-weight:bold;
+    color:#000;
+    text-decoration:none;
+    background:#C6E2FF;
+    border-bottom:1px solid #fff;
+}
+.nav_list ul li span {
+    width:0;
+    height:0;
+    position:absolute;
+    top:11px;
+    left:6px;
+    border-top:3px solid transparent;
+    border-bottom:3px solid transparent;
+    border-left:6px solid #000;
+}
+.nav_list ul li.active span {
+    border-top:6px solid #000;
+    border-left:3px solid transparent;
+    border-right:3px solid transparent;
+}
+
+.nav_list ul ul {
+    margin-top:0;
+    margin-left: -40px;
+    display:none;
+    margin-right: 0;
+}
+.nav_list ul ul li {
+    position:static;
+}
+.nav_list ul ul a  {
+    padding-left:20px;
+    font-size:12px;
+    color:#000;
+    background:#E5F1F4;
+}
+.small-column
+{
+  width: 65px;
+} 
+.medium-column
+{
+  width: 100px;
+}
+#login-form label{
+    background: #fff;
+    width: auto;
+}
+
+#LoginForm_password,
+#LoginForm_username {
+    display:none;
+}
+
+.grid-view .button-column a{
+    display:inherit;
+}
+
+.btn-right{
+    margin-left:10px;
+}
+
+.btn-left{
+    margin-right:10px;
+}
+
+
+div.fixedColumn .fixedTable{
+    background-color: #1dc0ff;
+}
+
+div.fixedContainer .fixedTable{
+    background-color: #FFFFFF;
+    text-align: center;
+    overflow: hidden;
+}
+
+div.fixedContainer{
+    /*overflow: scroll;*/
+    width: 640px;
+}
+
+div.fixedContainer .fixedHead{
+    background-color: #9e9e9e;
+}
+
+table#TableMix12 td:hover {
+    color: #ff0000; /* Цвет фона при наведении */
+}
+
+div.fixedContainer .fixedHead{
+    background-color: #cacaca;
+}
+
+div.fixedHead{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+div#Mix_Table table{
+    border: 1px solid black;
+}
+
+div#Mix_Table table td,div#Mix_Table table th{
+    border: 1px solid black;
+}
+
+table#TableMix12.FixedTables tr td{
+    width: 60px;
+}
+div#Mix_Table{
+    width: 1024px;
+}
+
+div #output-container a, input{
+    cursor: pointer;
+}
+
+.span-5{
+    position: relative;
+}
